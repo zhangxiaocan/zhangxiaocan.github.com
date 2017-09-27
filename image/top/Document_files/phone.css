@@ -1,0 +1,187 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+        position: relative;
+        height: 100%;
+        width:6.4rem;
+}
+
+.bg{
+	width: 100%;
+	height: 100%;
+	/* border: 1px solid blue; */
+	margin: 0 auto;
+}
+
+
+
+/* 顶部 －－－－－－－－－－－－*/
+.bgtop{
+	width: 100%;
+	height: 0.8rem;
+	background-color: lightblue;
+	line-height: 0.6rem;
+	vertical-align: center;
+	position:fixed;
+	top: 0.01rem;
+}
+.bgtop ul li{
+	/* border: 1px solid black; */
+	width: 0.5rem;
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.4rem;
+	color: white;
+	font-size: 0.25rem
+}
+.bgtop ul .hidden{
+	display:none;
+}
+.bgtop div{
+	float: left;
+}
+.bgtop .updown img{
+	width: 0.3rem;
+	height: 0.3rem;
+
+	box-sizing: border-box;
+	/* border: 1px solid black; */
+	vertical-align: center;
+	margin-top:0.27rem;
+	margin-left: 0.1rem
+
+}
+/* 搜索框 */
+.bgtop #top-search input{
+	width: 3.55rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	background-color: lightblue;
+	margin-top: 0.2rem;
+	margin-left: 0.35rem;
+	border: 1px solid white;
+}
+
+ .bgtop .topright img{
+ 	/* border: 1px solid black; */
+ 	width: 0.5rem;
+ 	height: 0.5rem;
+ 	margin-top: 0.15rem;
+ 	margin-left:0.35rem;
+ 	
+ }
+ .bgtop .bigsearch img{
+ 	width: 0.3rem;
+	height: 0.3rem;
+	box-sizing: border-box;
+	/* border: 1px solid black; */
+	vertical-align: center;
+	top:0.28rem;
+	position: absolute;
+	left:1.8rem;
+
+ }
+ /* banner－－－－－－－－－－－－－ */
+.swiper-container {
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.8rem;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}	
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+/* 内容－－－－－－－－－－－－－－－ */
+.bg .middle .middle1{
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.45rem;
+}
+.bg .middle .middle1 img{
+	width: 1rem;
+	height: 1rem;
+}
+.bg .middle .middle1 #relax{
+	width: 1.25rem;
+}
+.bg .middle .middle1 #relax1{
+	margin-left: 0.05rem;
+	margin-right:0.23rem; 
+}
+.bg .middle .middle1 div{
+	/* border: 1px solid black; */
+	text-align: center;
+	font-size: 0.2rem;
+}
+/* 分割线------------------------- */
+.bg .middleline{
+	width: 100%;
+	height: 0.07rem;
+	background-color:rgba(140,138,138,0.3);
+	margin-top: 3.45rem;
+}
+/* 体验区－－－－－－－－ */
+.bg .bottom{
+	width:100%;
+	/* background-color:pink; */
+}
+.bg .bottom .bottom-top{
+	width: 100%;
+	height: 0.5rem;
+	/* background-color:pink; */
+	display:flex;
+}
+.bottom .bottom-top .left .leftleft{
+	width: 0.05rem;
+	height: 0.16rem;
+}
+.bottom .bottom-top .left,.bottom .bottom-top .middle,.bottom .bottom-top .right{
+	width:2.3rem;
+	/* border: 1px solid black; */
+	text-align: center;
+	justify-content: center;
+	line-height: 0.5rem;
+	font-size: 0.18rem;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
